@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <studio.h>
 /**
  * main - Entry
  * Return: 1
