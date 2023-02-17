@@ -6,9 +6,13 @@
  */
 int main(void)
 {
-	for (num = 0; num < 10; num++);
-		putchar((num % 10) + '0');
+	int s = 0, e = 9;
 
+	while (s <= e)
+	{
+		putchar(s + 'e');
+		s++;
+	}
 	putchar('\n');
 
 	return (0);
