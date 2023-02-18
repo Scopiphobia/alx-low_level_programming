@@ -2,17 +2,20 @@
 
 /**
  * main - main function
+ *
  * Return: 0
  */
 int main(void)
 {
-	int s = 97, e = 122;
+	int = 97, e = 122;
+
+	while (e >= s)
 	{
-		while (e >= s)
 		putchar(e);
 		e++;
 	}
+
 	putchar('\n');
+
 	return (0);
 }
-
