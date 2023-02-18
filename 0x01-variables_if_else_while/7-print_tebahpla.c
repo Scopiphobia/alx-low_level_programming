@@ -1,20 +1,19 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 /**
  * main - main function
  *
  * Return: 0
  */
+
 int main(void)
 {
-	int s = 97, e = 122;
+	char low;
 
-	while (e <= s)
-	{
-		putchar(e);
-		e++;
-	}
-
+	for (low = 'z'; low >= 'a'; low--)
+	putchar(low);
 	putchar('\n');
 
 	return (0);
