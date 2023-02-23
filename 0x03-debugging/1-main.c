@@ -17,6 +17,7 @@ i = 0;
 *putchar(i)
 *}
 */
+
 printf("infinte loop avoided \\o/\n");
 
 return (0);
