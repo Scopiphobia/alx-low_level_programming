@@ -20,7 +20,7 @@ int count_word(char *s)
 		else if (flag == 0)
 		{																		flag = 1;
 
-			w++
+			w++;
 		}
 	}
 	return (w);
@@ -58,7 +58,7 @@ char **strtow(char *str)
 				if (tmp == NULL)
 					return (NULL);
 				while (start < end)
-					tmp++ = str[start++];
+					*tmp++ = str[start++];
 				*tmp = '\0';
 				matrix[k] = tmp - c;
 				k++;
